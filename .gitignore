@@ -1,0 +1,28 @@
+# Virtual environment (названия папок, которые могут использоваться для окружения)
+env/
+venv/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Compiled C++ programs
+matrix_mult
+*.exe
+*.o
+*.obj
+
+# Input/output matrix files (если не хотите хранить сгенерированные матрицы в репозитории)
+*.txt
+
+# Editors
+*~
+*.swp
+*.swo
